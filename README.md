@@ -123,4 +123,5 @@ Build & Deploy
 ```
 gcloud builds submit --config cloudbuild.yaml --substitutions _PROJECT_ID=${PROJECT_ID},_REGION=${REGION},_SA=${APP_SA},_AF_REPO_NAME=${AF_REPO_NAME},_IMAGE_NAME=${IMAGE_NAME},_APP_IMAGE_NAME=${APP_IMAGE_NAME},_COMMIT_SHA=${COMMIT_SHA},_IMAGE_VERSION=${IMAGE_VERSION},_PROCESS_BUCKET=${PROCESS_BUCKET},_SPARK_SA=${SPARK_SA},_SUBNET=${SUBNET},_PYTHON_FILE_URL=${PYTHON_FILE_URL},_SOURCE_INPUT_LOCATION=${SOURCE_INPUT_LOCATION},_TARGET_OUTPUT_LOCATION=${TARGET_OUTPUT_LOCATION}
 ```
-Modified by Dhiraj Chaudhari LinkedIn
+If you have questions or would like more guidance on related topics, feel free to connect on [LinkedIn](https://www.linkedin.com/in/dhirajchaudhari20/).
+
